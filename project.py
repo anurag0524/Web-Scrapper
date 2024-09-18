@@ -16,6 +16,6 @@ for i in range(1,20):
         d = elem.get_attribute("outerHTML")
         with open(f"data/{query}_{file}.html","w", encoding="utf-8") as f:
             f.write(d)
-            file += 1 
+            file += 1    
     time.sleep(2)
 driver.close()
